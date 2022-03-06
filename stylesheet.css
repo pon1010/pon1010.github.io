@@ -32,13 +32,9 @@ footer {
   padding-bottom: 20px;
 }
 
-.topimage {
- width:100%;
-}
-
 @media(max-width:1000px){
-  .topimage {
-    width:30%;
+  .item{
+  width:50%;
   }
 }
   
