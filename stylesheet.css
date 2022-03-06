@@ -32,7 +32,7 @@ footer {
 }
 
 @media(max-width:1000px){
-  .topimage{
+  .wrapper{
   width:50%;
   }
 }
