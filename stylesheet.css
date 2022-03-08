@@ -12,6 +12,14 @@ a {
   height: 90px;
 }
 
+.header-logo {
+  font-size: 20px;
+  float:left;
+  padding:20px 40px;
+}
+
+
+
 .header-serch {
   float:left;
   padding:25px 20px;
@@ -25,12 +33,6 @@ a {
 
 .footer {
   height: 90px;
-}
-
-.header-logo {
-  font-size: 20px;
-  float:left;
-  padding:20px 40px;
 }
 
 
