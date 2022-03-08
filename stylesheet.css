@@ -19,7 +19,7 @@ a {
 }
 
 .header-wrapper {
-  color:#d3d3d3;
+  
   height:55px;
 }
 
@@ -30,6 +30,7 @@ a {
 }
 
 .header-list {
+  color:#d3d3d3;
   height: 45px;
 }
 
