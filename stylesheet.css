@@ -10,6 +10,7 @@ a {
 
 li {
   list-style: none;
+  float:left;
 }
 
 .container {
