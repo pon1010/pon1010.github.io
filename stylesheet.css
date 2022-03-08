@@ -11,7 +11,7 @@ a {
 .header-list li {
   list-style: none;
   float:left;
-  padding:33px 20px;
+  padding:25px 20px;
 }
 
 
@@ -29,13 +29,13 @@ a {
 .footer-list li {
   list-style: none;
   float:right;
-  padding:;
+  padding:20px 40px;
 }
 
 .footer-logo {
   font-size: 15px;
   float:left;
-  padding: ;
+  padding:20px 40px;
 }
 
 .wrapper{
