@@ -9,7 +9,7 @@ a {
 }
 
 .header {
-  height: 90px;
+  height: 150px;
 }
 
 .header-logo {
@@ -19,13 +19,17 @@ a {
 }
 
 .header-wrapper {
-  height:30px;
+  height:75px;
 }
 
 
 .header-serch {
   float:left;
   padding:25px 20px;
+}
+
+.header-list {
+  height: 70px;
 }
 
 .header-list li {
