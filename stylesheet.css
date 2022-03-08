@@ -8,13 +8,19 @@ a {
   text-decoration: none;
 }
 
+.header {
+  height: 90px;
+}
+
 .header-list li {
   list-style: none;
   float:left;
   padding:25px 20px;
 }
 
-
+.footer {
+  height: 90px;
+}
 
 .header-logo {
   font-size: 20px;
@@ -29,7 +35,7 @@ a {
 
 .footer-list li {
   list-style: none;
-  padding:20px 40px;
+  padding:10px 40px;
 }
 
 .footer-logo {
