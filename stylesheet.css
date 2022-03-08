@@ -23,12 +23,12 @@ a {
 }
 
 
-
-
+.footer-list {
+  float:right;
+}
 
 .footer-list li {
   list-style: none;
-  float:right;
   padding:20px 40px;
 }
 
