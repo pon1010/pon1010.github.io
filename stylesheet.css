@@ -14,12 +14,6 @@ header-list li {
   padding:33px 20px;
 }
 
-.container {
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
 
 
 .header-logo {
@@ -33,6 +27,18 @@ header-list li {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+}
+
+footer-list li {
+  list-style: none;
+  float:right;
+  padding:;
+}
+
+.footer-logo {
+  font-size: 15px;
+  float:left;
+  padding: ;
 }
 
 .wrapper{
