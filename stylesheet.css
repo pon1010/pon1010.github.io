@@ -60,9 +60,22 @@ a {
   padding:20px 40px;
 }
 
-.wrapper{
-  width:100%;
-  float: left;
+.btn {
+  fpadding:8px 24px;
+  color:white;
+  display:inline-block;
+}
+.tw {
+    background-color:#d3d3d3;
+}
+.in {
+    background-color:#d3d3d3;
+}
+.li {
+    background-color:#d3d3d3;
+}
+.my-white {
+  color: #ffffff;
 }
 
 @media(max-width:1000px){
