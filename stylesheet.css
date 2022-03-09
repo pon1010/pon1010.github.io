@@ -60,10 +60,11 @@ a {
   padding:20px 40px;
 }
 
-.btn {
+.botan {
   fpadding:8px 24px;
   color:white;
   display:inline-block;
+  font-weight: 900;
 }
 .tw {
     background-color:#d3d3d3;
