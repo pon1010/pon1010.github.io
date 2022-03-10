@@ -8,6 +8,7 @@ a {
   text-decoration: none;
 }
 
+/* ヘッダー */
 .header {
   height: 150px;
 }
@@ -41,18 +42,9 @@ a {
   font-size:16px;
 }
 
+/* フッター */
 .footer {
   height: 90px;
-}
-
-
-.footer-list {
-  float:right;
-}
-
-.footer-list li {
-  list-style: none;
-  padding:10px 40px;
 }
 
 .footer-logo {
@@ -60,6 +52,17 @@ a {
   
   padding:20px 40px;
 }
+
+
+.footer-snswrapper {
+  padding:20px 40px;
+}
+
+.footer-list li {
+  list-style: none;
+  padding:10px 40px;
+}
+
 
 .botan {
   padding:5px 10px;
@@ -84,12 +87,23 @@ a {
 
 .logo-sns {
   height:100px;
-  width:200px;
+  width:350px;
   float:left;
   padding:px;
 }
 
+.footer-list {
+  float:right;
+}
 
+.footer-list li {
+  list-style: none;
+  padding:10px 40px;
+}
+
+
+
+/* メディアクエリ */
 @media(max-width:1000px){
   .wrapper{
   width:90%;
