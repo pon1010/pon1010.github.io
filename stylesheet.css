@@ -57,15 +57,15 @@ a {
 
 .footer-logo {
   font-size: 15px;
-  float:left;
+  
   padding:20px 40px;
 }
 
 .botan {
-  padding:8px 24px;
+  padding:5px 10px;
   color:#ffffff;
   display:inline-block;
-  font-size:13px;
+  font-size:14px;
   border-radius:4px;
   letter-spacing:0.1em;
 }
@@ -81,6 +81,14 @@ a {
 .my-white {
   color: #ffffff;
 }
+
+.logo-sns {
+  height:100px;
+  width:200px;
+  float:left;
+  padding:px;
+}
+
 
 @media(max-width:1000px){
   .wrapper{
