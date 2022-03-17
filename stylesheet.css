@@ -121,57 +121,26 @@ font-size:50px;
 
 
 
-//ローディング部分の回転エフェクト定義
-@-webkit-keyframes loading {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-@keyframes loading {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg); }
-  to {
-    -webkit-transform: rotate(360deg);
-    transform: rotate(360deg); } }
-
-//ローディング画面の背景部分
 #loading {
   width: 100vw;
   height: 100vh;
-  background-color: #f6f7f8;
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 100; }
-
-//ローディング回転部分
-#loading-main:after, #loading-main:before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  margin-left: -50%;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  border-radius: 110%; }
-
-#loading-main {
-  display: block;
-  width: 30px;
-  height: 30px;
-  position: absolute;
-  top: 45%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 105; }
-  #loading-main:after {
-    -webkit-animation: loading 0.75s linear infinite;
-    animation: loading 0.75s linear infinite;
-    border: 1px solid transparent;
-    border-top-color: #666; }
-  #loading-main:before {
-    border: 1px solid rgba(51, 51, 51, 0.15); }
+  transition: all 1s;
+  background-color: #0bd;
+}
+.spinner {
+  width: 100px;
+  height: 100px;
+  margin: 200px auto;
+  background-color: #fff;
+  border-radius: 100%;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+}
+/* ローディングアニメーション */
+@keyframes sk-scaleout {
+  0% {
+    transform: scale(0);
+  } 100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}
