@@ -59,17 +59,15 @@ a {
 }
 
 /* スライド */
-.slide {
-	position:relative;
-	height:400px;
+#changePic {
+animation :imgfade 4s infinite;
+opacity: 0;
 }
-.slide img {
-	position:absolute;
-	opacity:0;
-	transition:all 1s ease-in-out;
-	height:100%;
-	object-fit:contain;
-}
+
+@keyframes imgfade {
+	0% {
+		opacity: 0;
+	}
 
 
 .botan {
