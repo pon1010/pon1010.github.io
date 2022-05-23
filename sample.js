@@ -5,7 +5,7 @@ window.onload = function() {
   spinner.classList.add('loaded');
 }
 
-const pics_src = ["top1.jpg","top2.jpg","top3.jpg"];
+const pics_src = ["top.jpg","top2.jpg","top3.jpg","top4.jpg"];
 let num = -1;
  
  
