@@ -72,6 +72,26 @@ a {
 }
 
 
+.navbar navbar-default {
+
+  background-color:#d3d3d3;
+
+  height: 45px;
+
+}
+
+.navbar navbar-default li {
+
+  list-style: none;
+  float:left;
+
+  padding:10px 20px;
+
+  font-size:16px;
+
+}
+
+
 
 /* フッター */
 
