@@ -91,11 +91,11 @@ a {
  */
 .navbar-default {
   border-width: 0;
-  background-color: #dcb35c;
+  background-color: #fff;
 }
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: transparent;
+    background-color: #fff;
   }
 }
 .navbar-default .navbar-nav > li {
