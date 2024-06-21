@@ -52,7 +52,8 @@ a {
 
 .header-list {
 
-  background-color:#d3d3d3;
+  
+
 
   height: 45px;
 
@@ -65,9 +66,9 @@ a {
   list-style: none;
   float:left;
 
-  padding:10px 20px;
+  padding:20px 20px;
 
-  font-size:16px;
+  font-size:14px;
 
 }
 
@@ -154,7 +155,7 @@ a {
 
 .footer-logo {
 
-  font-size: 15px;
+  font-size: 14px;
 
   padding:20px 40px;
 
