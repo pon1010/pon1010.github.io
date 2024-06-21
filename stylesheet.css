@@ -32,7 +32,7 @@ a {
 
  
 
-  padding:10px 40px;
+  padding:４0px 40px;
 
 }
 
@@ -94,11 +94,11 @@ a {
  */
 .navbar-default {
   border-width: 0;
-  background-color: #fff;
+ 
 }
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: #fff;
+  
   }
 }
 .navbar-default .navbar-nav > li {
@@ -108,7 +108,7 @@ a {
   text-transform: uppercase;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #FFF;
+ 
 }
 @media (min-width: 768px) {
   .navbar-default .navbar-nav > li > a {
@@ -118,11 +118,11 @@ a {
 .navbar-default .navbar-toggle {
   margin-top: 16px;
   margin-bottom: 16px;
-  background-color: #fff;
+ 
 }
 
 .menu-global {
-  background-color: #fff;
+ 
 }
 @media (min-width: 768px) {
   .menu-global {
