@@ -1,113 +1,57 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/4066192d98.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
 
-<head>
 
-  <meta charset="utf-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <div id="loading">
 
-  <title>Progate</title>
-
-  <link rel="stylesheet" href="stylesheet.css">
-
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-
-  
-  <script type="text/javascript" src="sample.js"></script>
-
-  <script src="https://kit.fontawesome.com/4066192d98.js" crossorigin="anonymous"></script>
-
- 
-
-</head>
-
-  
-
-<body>
-
-  
-
-  <div id="loading">
-
-  <div class="spinner"></div>
-
-</div>
-
-  
-
-  
-
-  
-
-  <div class="header">
-
+      <div class="spinner"></div>
     
+    </div>
 
-    <div class="header-wrapper">
 
-     <div class="header-logo">
 
-      <img class="logo" src="https://pon1010.github.io/img/logo.png">
-
-     </div>
-
-     
-
-</div>
-
-    
-    
-   <!--ここから-->  
- 
-<!--      
-<div class="navbar navbar-default navbar-static-top header">
-<div class="clearfix header-container">
-          
-          <div class="navbar-header">
-            <button type="button" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" class="navbar-toggle collapsed"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-         </div> 
-            
-          <div id="navbar" class="navbar-collapse collapse menu-global">
-            <ul class="nav navbar-nav menu-global-main">
-              <li><a href="">stationery</a></li>
-              <li><a href="">package</a></li>
-              <li><a href="">web</a></li>
-              
-            </ul>
-          </div> 
-          
-           
-            
-</div>
-</div>  
- -->  
+    <!-- As a link -->
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"><img class="logo" src="img/logo.png" alt="Bootstrap" width="100%" height="auto"></a>
+  </div>
+</nav>
 
 
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar w/ text</a>
+    
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="stationery.html">Stationery</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
+          <a class="nav-link" href="package.html">Package</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="other.html">Other</a>
         </li>
       </ul>
       <span class="navbar-text">
-        Navbar text with an inline element
+        
+        <i class="fa-brands fa-instagram  fa-2x"></i>
       </span>
     </div>
   </div>
@@ -116,101 +60,56 @@
 
 
 
-
-
-
-
-
-    
-    
-    
-    
-   <!--ここまで-->
-    
-    
-
-  
-    
-
-    
-
-  </div>
-
-  
-   </div>
-
-  
-
-  <div class="main">
-
-    <div class="wrapper">
-
-   <img class="pon" src="img/top3.webp">
-
-    </div>
-
-  </div>
-
   
 
 
 
-  <div class="footer">
-
-    
-
-    <div class="logo-sns">
-
-    <div class="footer-logo">
-
-      About us<br>
-文具メーカーにて ステーショナリー、雑貨、パッケージなどのデザイン/挿絵の水彩画/会社hp更新/webshop運営を担当していました。使用ツール：illustrator,photoshop
-
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/top1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/top3.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/top4.webp" class="d-block w-100" alt="...">
+      </div>
     </div>
-
-    <div class="footer-snswrapper">
-
-      
-
-      <a class="botan tw" href="#"><i class="fa-brands fa-twitter fa-1x my-white"></i>Twitter</a>
-
-      <a class="botan in" href="#"><i class="fa-brands fa-instagram  fa-1x my-white"></i>Instagram</a>
-
-      <a class="botan li" href="#"><i class="fa-brands fa-line fa-1x my-white"></i>公式Line</a>
-
-      
-
-    </div>
-
-    </div>
-
-    
-
-    <div class="footer-list">
-
-        <ul>
-
-          <li>stationery</li>
-
-          <li>package</li>
-
-          <li>web</li>
-
-        </ul>
-
-    </div>
-
-    
-
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
   </div>
 
 
+  
+
+    
 
    
+    
+    <div class="container-fluid">
+      <footer class="py-3 my-4">
+        
+        
+        <ul class="nav border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><img class="ploficon" src="img/ploficon.png" width="15%" height="auto"></a></li>
+          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><strong>About</strong><br>雑貨、パッケージなどのデザイン/挿絵の水彩画/会社hp更新/webshop運営を担当していました。</a></li>
+          
+        </ul>
+        <p class="text-center text-body-secondary">&copy; 2024 Sae Niizaka</p>
+      </footer>
+    </div>
 
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
 
-</body>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
 </html>
